@@ -450,8 +450,8 @@ a.navbar-brand img {
     width: 950px;
 }
 .full > img {
-    width: 650px;
-    height: 800px; 
+    width: 600px;
+    height: 550px; 
     object-fit: cover;
 
 }
