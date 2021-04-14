@@ -1,852 +1,829 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- Basic -->
+<html lang="zxx">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  
-    <title>Ashish Rana SRC_JIT</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.png">
+    <title>Ashish Rana Portfolio</title>
 
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="#" />
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&amp;display=swap" rel="stylesheet">
+    <!-- end font -->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- Pogo Slider CSS -->
-    <link rel="stylesheet" href="css/pogo-slider.min.css" />
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css" />
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/fakeLoader.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
-<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+<body>
 
-    <!-- LOADER -->
-    <div id="preloader">
-        <div class="loader">
-            <img src="images/loader.gif" alt="#" />
-        </div>
-    </div>
-  
-    <header class="top-header">
-        <nav class="navbar header-nav navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href=""><img src="images/logo.png" alt="image"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <!-- loader -->
+    <div class="fakeLoader"></div>
+    <!-- loader -->
+
+    <!-- header -->
+    <header id="home">
+
+        <!-- navbar -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <!-- navbar brand or logo -->
+                <a href="#" class="navbar-brand">
+                    <h2>A.R Creations</h2>
+                </a>
+                <!-- end navbar brand or logo -->
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                    <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href=""><nobr>SRC Constitution</nobr> </a></li>
-                        <li><a class="nav-link" href="">Activities</a></li>
-                        <li><a class="nav-link" href=""><nobr>Our Team</nobr></a></li>
-						<li><a class="nav-link" href="">Winners</a></li>
-						<li><a class="nav-link" href=""><nobr>Contact us</nobr></a></li>
+
+                <div id="navbarTogglerDemo" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#resume" class="nav-link">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
                     </ul>
                 </div>
-             </div>
-        </nav>
+            </nav>
+        </div>
+        <!-- end navbar -->
+
+        <!-- home intro -->
+        <div class="home-intro segments">
+            <div class="container">
+                <div class="intro-content box-content">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+                            <div class="intro-caption">
+                                <span>Hi I'm Ashish Rana</span>
+                                <h2>Coding Wizard Here!!! </h2>                            
+                                <a type="button" class="button" href="#contact">Contact Me</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
+                            <div class="intro-image">
+                                <img src="images/intro-image.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end home intro -->
+
     </header>
-    <!-- End header -->
+    <!-- end header -->
 
-    <!-- Start Banner -->
-    <div class="ulockd-home-slider">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="pogoSlider" id="js-main-slider">
-                    <div class="pogoSlider-slide" style="background-image:url(images/banner_img1.png);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="slide_text">
-                                        <h3><span span class="theme_color">JIT_SRC</span><br>Of the Students'</h3>
-                                         <h4>By the Students' For the Students'</h4>
-                                        <br>
-                                        <div class="full center">
-										    <a class="contact_bt" href="">Register For Events</a>
-										</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pogoSlider" id="js-main-slider">
-                    <div class="pogoSlider-slide" style="background-image:url(images/banner_img22.png);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="slide_text">
-                                        <h3><span span class="theme_color">JIT_SRC</span><br>Of the Students'</h3>
-                                         <h4>By the Students' For the Students'</h4>
-                                        <br>
-                                        <div class="full center">
-                                            <a class="contact_bt" href="">Register For Events</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pogoSlider" id="js-main-slider">
-                    <div class="pogoSlider-slide" style="background-image:url(images/banner_img33.png);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="slide_text">
-                                        <h3><span span class="theme_color">JIT_SRC</span><br>Of the Students'</h3>
-                                         <h4>By the Students' For the Students'</h4>
-                                        <br>
-                                        <div class="full center">
-                                            <a class="contact_bt" href="">Register For Events</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pogoSlider-slide" style="background-image:url(images/banner_img44.png);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="slide_text">
-                                        <h3><span span class="theme_color">JIT_SRC</span><br>Of the Students'</h3>
-                                        <h4> By the Students' For the Students'</h4>
-                                        <br>
-                                        <div class="full center">
-										    <a class="contact_bt" href="">Register For Events</a>
-										</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- .pogoSlider -->
-            </div>
-        </div>
-    </div>
-    <!-- End Banner -->
-    <!-- section -->
-	
-	<!-- end section -->
-	<!-- section -->
-    <div class="section margin-top_50">
+    <!-- about -->
+    <div id="about" class="about segments">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 layout_padding_2">
-                    <div class="full">
-                        <div class="heading_main text_align_left">
-						   <h2><span>SRC</span>&nbsp Incharge</h2>
+            <div class="box-content">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="content-left">
+                            <div class="section-title section-title-left">
+                                <h3>About Me</h3>
+                            </div>
+                            <div class="content">
+                                <h2>I am a computer science & engineering student</h2>
+                                <p> Possessing exceptional logical and analytical skills. 
+able to perform the designing, coding and testing various software very effectively, Well-skilled in numerous programming languages includng C, C++, Java, Android, xml, HTML, CSS, Javascript . Strong Background in Photoshop and Video Manipulation.
+                            </div>
                         </div>
-						<div class="full">
-						 <p>STUDENTS' REPRESENTATIVE COUNCIL (JIT SRC)&nbsp;is a student body of the college consisting of student representatives from all the branches. The function of the student council is based upon parliamentary procedures. Ideas are presented, voted upon and confirmed by the students' body. Any student interested in leadership, organizational behavior, event planning or becoming more involved in the college are welcome to become involved. </p><p>The SRC is mainly involved in conducting and organizing intra and inter-college activities.SRC's work democratically to represent the student body in Institute's decision-making and organise ways for students to participate in and enjoy college life.  All these activities throughout the year help the students to improve on their communication skills, presentation skills, and organizational skills and help boosting the self confidence of the students and help them explore their latent talents.</p><p>
-              We wish the Team very best.</p>
-
-						</div>
-					</div>
-                </div>
-				<div class="col-md-6">
-                    <div class="full">
-                        <div class="mood">
-                        <img src="images/imgg2.png">
                     </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="content-right"></div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- end about -->
 
-	<!-- end section -->
-	<!-- section -->
-
- <div class="section layout_padding padding_bottom-0">
+    <!-- resume -->
+    <div id="resume" class="resume segments">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="full">
-                        <div class="heading_main text_align_center">
-                           <h2><span>Activiies </span></h2>
-                        </div>
-                      </div>
+            <div class="box-content">
+                <div class="section-title">
+                    <h3>My Resume</h3>
                 </div>
-               <div class="row">
-                <div class="col-lg-12">
-                    <div id="demo" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                       <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/sports.png" alt="#" />
-                                          <h4>Sports</h4>
-                                          <p>Tug Of War || Cricket  || Basketball  || Football </p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/jallosh.png" alt="#" />
-                                          <h4>Jallosh</h4>
-                                          <p>Singing Competition || Fashion Show || Performance by Rock-band || Antakshari || Dance Competition </p>
-                                        </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="content">
+                        <!-- my experience -->
+                        <div class="row ">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="content-left">
+                                    <div class="title-resume">
+                                        <h2>Work <span><br>History</span></h2>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                       <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/engineerday.png" alt="#" />
-                                          <h4>Engineer Day</h4>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/radio.png" alt="#" />
-                                          <h4>Radio Event</h4>
-                                        </div>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="content-right">
+                                    <ul class="timeline">
+                                        <li>
+                                            <h4>Content Management Intern</h4>
+                                            <span>IT NetworkZ (Jul 2020 - Aug 2020)</span>
+                                        </li>
+                                        <li>
+                                            <h4>Social Media Advertiser Intern</h4>
+                                            <span>Humari Pehechan NGO (May 2020 - June 2021)</span>
+                                        </li>
+                                        <li>
+                                            <h4>Software Tester</h4>
+                                            <span>IT NetworkZ (Jul 2020 - Aug 2020)</span>
+                                        </li>
+                                        <li>
+                                            <h4>Python Project Trainee</h4>
+                                            <span>Alive Tech Services (Dec 2019 - Jan 2021)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end my experience -->
+                    </div>
+                    <div class="content">
+                        <!-- my education -->
+                        <div class="row ">
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="content-left">
+                                    <div class="title-resume">
+                                        <h2>Edu<span>cation</span></h2>
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                       <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/gandhi.png" alt="#" />
-                                          <h4>Gandhi Jayanti</h4>
+                            <div class="col-md-6 col-sm-12 col-xs-12">
+                                <div class="content-right">
+                                    <ul class="timeline">
+                                        <li>
+                                            <h4>SSC</h4>
+                                            <span>S. S. P. English High School, Nagpur</span>
+                                        </li>
+                                        <li>
+                                            <h4>HSC</h4>
+                                            <span>D.R.B Sindhu Mahavidyalaya, Nagpur</span>
+                                        </li>
+                                        <li>
+                                            <h4>Pursuing Computer Science & Enginnering</h4>
+                                            <span>Jhulelal Institute of Technology, Nagpur</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end my education -->
+                    </div>
+                    <div class="content">
+                        <!-- my skill -->
+                        <div class="my-skill">
+                            <div class="row ">
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="content-left">
+                                        <div class="title-resume">
+                                            <h3>Skill</h3>
+                                            <h2>With good <span>Personal</span> and <span>Professional Skills</span></h2>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-12">
-                                        <div class="full blog_img_popular">
-                                          <img class="img-responsive" src="images/shikhar.png" alt="#" />
-                                          <h4>Shikhar</h4>
+                                </div>
+                                <div class="col-md-6 col-sm-12 col-xs-12">
+                                    <div class="content-right">
+                                        <div id="accordionSkill" class="accordion">
+                                            <div class="card">
+                                                <div id="personalSkill" class="card-header">
+                                                    <h2>
+                                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                                            <i class="fas fa-circle"></i>Personal Skill
+                                                        </button>
+                                                    </h2>
+                                                </div>
+
+                                                <div id="collapse1" class="collapse" aria-labelledby="personalSkill" data-parent="#accordionSkill">
+                                                    <div class="card-body">
+                                                        <ul class="personalSkill">
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Creativity</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Innovation</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Communication</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Teamwork</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%"></div>
+                                                                </div>
+                                                            </li>
+                                                             <li>
+                                                                <div class="skill-title">
+                                                                    <span>Service-Focused</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 98%"></div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="card">
+                                                <div id="proSkill" class="card-header">
+                                                    <h2>
+                                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                                            <i class="fas fa-circle"></i>Professional Skill
+                                                        </button>
+                                                    </h2>
+                                                </div>
+
+                                                <div id="collapse2" class="collapse" aria-labelledby="proSkill" data-parent="#accordionSkill">
+                                                    <div class="card-body">
+                                                        <ul class="pro-skill">
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Graphic Design</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>HTML & CSS</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>C & C++</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                </div>
+                                                            </li>
+                                                            
+                                                               <li>
+                                                                <div class="skill-title">
+                                                                    <span>Android</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                                                                </div>
+                                                            </li>
+                                                             <li>
+                                                                <div class="skill-title">
+                                                                    <span>Firebase</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>xml</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                </div>
+                                                            </li>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Python</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 35%"></div>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="skill-title">
+                                                                    <span>Java Script</span>
+                                                                </div>
+                                                                <div class="progress">
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
+                                                                </div>
+                                                              
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
- <div class="col-md-12">            
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
+                        <!-- end my skill -->
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <!-- end resume -->
+
+    <!-- portfolio -->
+    <div id="portfolio" class="portfolio segments" >
+        <div class="container">
+            <div class="box-content">
+                <div class="section-title">
+                    <h3>My Graphic Designs Portfolio</h3>
+                </div>
+                <div class="portfolio-filter-menu">
+                    <ul>
+                        <li data-filter="11" class="active">
+                            <span>See All</span>
+                        </li>
+                        <li data-filter="1">
+                            <span>Logo Design</span>
+                        </li>
+                        <li data-filter="2">
+                            <span>Event Poster</span>
+                        </li>
+                        <li data-filter="3">
+                            <span>Buisness Poster</span>
+                        </li>
+                        <li data-filter="4">
+                            <span>Android UI Design</span>
+                        </li>
+                        <li data-filter="5">
+                            <span>YT Thumbnail</span>
+                        </li>
+                        <li data-filter="6">
+                            <span>Flex Design</span>
+                        </li>
+                        <li data-filter="7">
+                            <span>Memento Design</span>
+                        </li>
+                        <li data-filter="8">
+                            <span>Letter Head Design</span>
+                        </li>
+                         <li data-filter="9">
+                            <span>Certificate Design</span>
+                        </li>
+                    </ul>
+                </div> 
+
+
+
+                <div class="portfoliomain" id="portfoliomain"  >
+                <div class="row no-gutters filtr-container">
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item"  data-category="1">
+                        <div class="content-image" >
+                            <a href="images/portfolio1.jpg" class="portfolio-popup">
+                                <img src="images/portfolio1.jpg" alt="">
+                                <div class="image-overlay"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="1,11">
+                        <div class="content-image">
+                            <a href="images/portfolio2.jpg" class="portfolio-popup">
+                                <img src="images/portfolio2.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4 >DigiSahayata Apk Logo</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Apk Logo</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="1">
+                        <div class="content-image">
+                            <a href="images/portfolio3.jpg" class="portfolio-popup">
+                                <img src="images/portfolio3.jpg" alt="">
+                                <div class="image-overlay"></div>    
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="3,11">
+                        <div class="content-image">
+                            <a href="images/portfolio4.jpg" class="portfolio-popup">
+                                <img src="images/portfolio4.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Dental Hospital</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Poster Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="2,11">
+                        <div class="content-image">
+                            <a href="images/portfolio5.jpg" class="portfolio-popup">
+                                <img src="images/portfolio5.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Art of Living Event</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Poster Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="2">
+                        <div class="content-image">
+                            <a href="images/portfolio6.jpg" class="portfolio-popup">
+                                <img src="images/portfolio6.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="2">
+                        <div class="content-image">
+                            <a href="images/portfolio7.jpg" class="portfolio-popup">
+                                <img src="images/portfolio7.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="2,11">
+                        <div class="content-image">
+                            <a href="images/portfolio8.jpg" class="portfolio-popup">
+                                <img src="images/portfolio8.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Ladies Club Event</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Poster Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="2">
+                        <div class="content-image">
+                            <a href="images/portfolio9.jpg" class="portfolio-popup">
+                                <img src="images/portfolio9.jpg" alt="">
+                                <div class="image-overlay"></div>
+                              
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="3">
+                        <div class="content-image">
+                            <a href="images/portfolio10.jpg" class="portfolio-popup">
+                                <img src="images/portfolio10.jpg" alt="">
+                                <div class="image-overlay"></div>
+                               
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="3">
+                        <div class="content-image">
+                            <a href="images/portfolio11.jpg" class="portfolio-popup">
+                                <img src="images/portfolio11.jpg" alt="">
+                                <div class="image-overlay"></div>
+                              
+                            </a>
+                        </div>
+                    </div><div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="3">
+                        <div class="content-image">
+                            <a href="images/portfolio12.jpg" class="portfolio-popup">
+                                <img src="images/portfolio12.jpg" alt="">
+                                <div class="image-overlay"></div>
+                               
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="3,11">
+                        <div class="content-image">
+                            <a href="images/portfolio13.jpg" class="portfolio-popup">
+                                <img src="images/portfolio13.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Alexis Hospital</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Business Poster Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="3,11">
+                        <div class="content-image">
+                            <a href="images/portfolio14.jpg" class="portfolio-popup">
+                                <img src="images/portfolio14.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Phenomial Host</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Business Poster Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="4,11">
+                        <div class="content-image">
+                            <a href="images/portfolio15.jpg" class="portfolio-popup">
+                                <img src="images/portfolio15.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Android Application</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>UI Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="5">
+                        <div class="content-image">
+                            <a href="images/portfolio16.jpg" class="portfolio-popup">
+                                <img src="images/portfolio16.jpg" alt="">
+                                <div class="image-overlay"></div>
+                               
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="5">
+                        <div class="content-image">
+                            <a href="images/portfolio17.jpg" class="portfolio-popup">
+                                <img src="images/portfolio17.jpg" alt="">
+                                <div class="image-overlay"></div>
+                               
+                            </a>
+                        </div>
+                    </div><div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="6">
+                        <div class="content-image">
+                            <a href="images/portfolio18.jpg" class="portfolio-popup">
+                                <img src="images/portfolio18.jpg" alt="">
+                                <div class="image-overlay"></div>
+                              
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="7,11">
+                        <div class="content-image">
+                            <a href="images/portfolio19.jpg" class="portfolio-popup">
+                                <img src="images/portfolio19.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Appreciation</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Memento Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="8,11">
+                        <div class="content-image">
+                            <a href="images/portfolio20.jpg" class="portfolio-popup">
+                                <img src="images/portfolio20.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Bloggiz</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Letter Haed Design</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="8">
+                        <div class="content-image">
+                            <a href="images/portfolio21.jpg" class="portfolio-popup">
+                                <img src="images/portfolio21.jpg" alt="">
+                                <div class="image-overlay"></div>
+                               
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="9,11">
+                        <div class="content-image">
+                            <a href="images/portfolio22.jpg" class="portfolio-popup">
+                                <img src="images/portfolio22.jpg" alt="">
+                                <div class="image-overlay"></div>
+                                 <div class="portfolio-caption">
+                                    <div class="title">
+                                        <h4>Appreciaion</h4>
+                                    </div>
+                                    <div class="subtitle">
+                                        <span>Certificate Design</span>
+                                    </div>
+                                </div>                               
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="9">
+                      <div class="content-image">
+                            <a href="images/portfolio23.jpg" class="portfolio-popup">
+                                <img src="images/portfolio23.jpg" alt="">
+                                <div class="image-overlay"></div>
+                              
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="9">
+                        <div class="content-image">
+                            <a href="images/portfolio24.jpg" class="portfolio-popup">
+                                <img src="images/portfolio24.jpg" alt="">
+                                <div class="image-overlay"></div>
+                               
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+    <!-- end portfolio -->
 
-<!---Team Section--->
-    <!---Ar --->
-       <div class="full">
-            <div class="heading_main text_align_center">
-               <h2><span>Team SRC 2020-21</span></h2>
+    <!-- blog -->
+    <div id="blog" class="blog segments">
+        <div class="container">
+            <div class="section-title">
+                <h3>My Blog</h3>
             </div>
-         
-<div class ="teamicon">
-      
-
-      <div class="container">
-
-  <!-- Full-width images with number text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-      <img src="images/team1.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-      <img src="images/team2.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-      <img src="images/team3.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-      <img src="images/team4.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-      <img src="images/team5.png" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-      <img src="images/team6.png" style="width:100%">
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  <!-- Image text -->
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <!-- Thumbnail images -->
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="images/team1.png" style="width:100%" onclick="currentSlide(1)" alt="TEAM JIT_SRC">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/team2.png" style="width:100%" onclick="currentSlide(2)" alt="TEAM JIT_SRC">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/team3.png" style="width:100%" onclick="currentSlide(3)" alt="TEAM JIT_SRC">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/team4.png" style="width:100%" onclick="currentSlide(4)" alt="TEAM JIT_SRC">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/team5.png" style="width:100%" onclick="currentSlide(5)" alt="TEAM JIT_SRC">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="images/team6.png" style="width:100%" onclick="currentSlide(6)" alt="TEAM JIT_SRC">
-    </div>
-  </div>
-</div>   
-                 
-</div>
-        <div class="tablediv">
-        <center><table id="teamtable">
-<tbody>
-<tr  style="background: linear-gradient(to right, #ffcc00 31%, #000066 96%)">
-<td>
-<strong style="color:#37598A">Sr. No.</strong>
-</td>
-<td>
-<strong style="color:#37598A">Name</strong>
-</td>
-<td>
-<strong style="color:#37598A">Post</strong>
-</td>
-</tr>
-<tr>
-<td>
-1
-</td>
-<td>
-<strong>Mr. Divyesh Atkar</strong>
-</td>
-<td>
-<strong>President</strong>
-</td>
-</tr>
-<tr>
-<td>
-2
-</td>
-<td>
-<strong>Mr. Anshual Barahate</strong>
-</td>
-<td>
-<strong>Vice President </strong>
-</td>
-</tr>
-<tr>
-<td>
-3
-</td>
-<td>
-<strong>Ms. Shivani Shukla</strong>
-</td>
-<td>
-<strong>General Secretary </strong>
-</td>
-</tr>
-<tr>
-<td>
-4
-</td>
-<td>
-<strong>Ms. Megha Korde</strong>
-</td>
-<td>
-<strong>Additional General Secretary</strong>
-</td>
-</tr>
-<tr>
-<td>
-5
-</td>
-<td>
-<strong>Mr. Vaibhav Kungwani</strong>
-</td>
-<td>
-<strong>Treasurer</strong>
-</td>
-</tr>
-<tr>
-<td>
-6
-</td>
-<td>
-<strong>Mr. Rahul Jain</strong>
-</td>
-<td>
-<strong>Event Secretary</strong>
-</td>
-</tr>
-<tr>
-<td>
-7
-</td>
-<td>
-<strong>Mr. Karthik Rundhe</strong>
-</td>
-<td>
-<strong>Discipline Secretary</strong>
-</td>
-</tr>
-<tr>
-<td>
-8
-</td>
-<td>
-<strong>Mr. Nihal Dohare</strong>
-</td>
-<td>
-<strong>Joint General Secretary</strong>
-</td>
-</tr>
-<tr>
-<td>
-9
-</td>
-<td>
-<strong>Ms. Khushi Sahu</strong>
-</td>
-<td>
-<strong>Academic Secretary</strong>
-</td>
-</tr>
-<tr>
-<td>
-10
-</td>
-<td>
-<strong>Mr. Saurabh Jagtap</strong>
-</td>
-<td>
-<strong>Sport Secretary</strong>
-</td>
-</tr>
-<tr>
-<td>
-11
-</td>
-<td>
-<strong>Mr. Bhushan Atkar</strong>
-</td>
-<td>
-<strong>Cultural Secretary</strong>
-</td>
-</tr>
-<tr>
-<td>
-12
-</td>
-<td>
-<strong>Ms. Riya Galani</strong>
-</td>
-<td>
-<strong>Co-Treasurer</strong>
-</td>
-</tr>
-<tr>
-<td>
-13
-</td>
-<td>
-<strong>Mr. Niraj Bele</strong>
-</td>
-<td>
-<strong>Grievance & Redressal Head </strong>
-</td>
-</tr>
-<tr>
-<td>
-14
-</td>
-<td>
-<strong>Mr. Lucky Panjwani</strong>
-</td>
-<td>
-<strong>Editor</strong>
-</td>
-</tr>
-<tr>
-<td>
-15
-</td>
-<td>
-<strong>Mr. Ashish Rana</strong>
-</td>
-<td>
-<strong>Technical Head</strong>
-</td>
-</tr>
-<tr>
-<td>
-16
-</td>
-<td>
-<strong>Ms. Nirmala Chawla</strong>
-</td>
-<td>
-<strong>Women Empowerment Head</strong>
-</td>
-</tr>
-<tr>
-<td>
-17
-</td>
-<td>
-<strong>Mr. Shubham Deshpande</strong>
-</td>
-<td>
-<strong>Social Media Head</strong>
-</td>
-</tr>
-<tr>
-<td>
-18
-</td>
-<td>
-<strong>Mr. Shubham Tahiliyani</strong>
-</td>
-<td>
-<strong>Branding & Promotion Head</strong>
-</td>
-</tr>
-<tr>
-<td>
-19
-</td>
-<td>
-<strong>Ms. Mansi Dange</strong>
-</td>
-<td>
-<strong>Happy Hours Club Head</strong>
-</td>
-</tr>
-<tr>
-<td>
-20
-</td>
-<td>
-<strong>Mr. Jatin Bansod</strong>
-</td>
-<td>
-<strong>Dance Club Head</strong>
-</td>
-</tr>
-<tr>
-<td>
-21
-</td>
-<td>
-<strong>Mr. Vivek Chaoudhary</strong>
-</td>
-<td>
-<strong>Photography Club Head</strong>
-</td>
-</tr>
-<tr>
-<td>
-22
-</td>
-<td>
-<strong>Ms. Nisha Ramani</strong>
-</td>
-<td>
-<strong>Recreational Club Head</strong>
-</td>
-</tr>
-<tr>
-<td>
-23
-</td>
-<td>
-<strong>Mr. Rohit Naidu</strong>
-</td>
-<td>
-<strong>Music Club Head</strong>
-</td>
-</tr>
-<tr>
-<td>
-24
-</td>
-<td>
-<strong>Mr. Lavesh Raisinghani</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-25
-</td>
-<td>
-<strong>Ms. Bhawana Parihar</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-26
-</td>
-<td>
-<strong>Mr. Manish Poptani</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-27
-</td>
-<td>
-<strong>Mr. Piyush Binekar</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-28
-</td>
-<td>
-<strong>Ms. Ishika Shrirao</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-29
-</td>
-<td>
-<strong>Mr. Kritesh Gaikwad</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-30
-</td>
-<td>
-<strong>Mr. Prathamesh Mangrulkar</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-31
-</td>
-<td>
-<strong>Ms. Snehal Nagrale</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-32
-</td>
-</td>
-<td>
-<strong>Ms. Simran Kaur Virdi</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-33
-</td>
-</td>
-<td>
-<strong>Ms. Mayuri Ghangare</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-34
-</td>
-</td>
-<td>
-<strong>Mr. Nikhil Mandhyani</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-35
-</td>
-</td>
-<td>
-<strong>Mr. Om Gajbhiye</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tr>
-<tr>
-<td>
-36
-</td>
-</td>
-<td>
-<strong>Ms. Saee Paturkar</strong>
-</td>
-<td>
-<strong>Executive Memeber</strong>
-</td>
-</tbody>
-</table>
-</center>
-<br><br>
-</div>
-</center>
- </div>
-
- <!-- ------------footer start-->                       <!-- Left and right controls -->
-                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#demo" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
-
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="content">
+                        <div class="image">
+                            <img src="images/blog1.jpg" alt="">
+                        </div>
+                        <div class="blog-title">
+                            <h4><a href="https://www.instagram.com/__a_r_creations__/">Follow Us On Instagram</a></h4>
+                            <div class="date">2021
+                                 <i class="fas fa-circle"></i> <a href="https://www.instagram.com/__a_r_creations__/"><span>A.R Creations- Insta Business Account</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-            </div>            
-           </div>
-        </div>
-<footer class="footer-box">
-        <div class="container">
-		
-		   <div class="row">
-		   
-		      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-			     <div class="footer_blog">
-				    <div class="fullf  margin-bottom_30">
-					   <img src="images/footer_logo.png" alt="#" />
-					 </div>
-				 </div>
-			  </div>
-			  
-			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-			       <div class="footer_blog footer_menu white_fonts">
-						    <h3>Address</h3>
-						   <p> Kh.No.68/1/2/3/72, Off Koradi Road,
-                                Lonara, Nagpur - 441111
-                                Fax: +91-712-2668233
-                                Milestones: 12.9 Kms from Zero Mile,
-                                9 Kms from Poonam Chambers</p>
-						 </div>
-				 </div>
-				 
-				 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="footer_blog full white_fonts">
-						     <h3>More About Us</h3>
-							 <p>Principle Desk
-                                JIT Homepage</p>
-						</div>
-					</div>	 
-			  
-			  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
-				 <div class="footer_blog full white_fonts">
-						     <h3>Contact us</h3>
-							 <ul class="full">
-						   <li><img src="images/i6.png"><span><a href="presidentsrc@jit.org.in">presidentsrc@jit.org.in</a></span></li>
-						  <h4>Social Media</h4>
-                         <p>  <a href="https://www.youtube.com/channel/UC0r728fDFLWNuR9RGx1XghQ/channels" target="_blank"> <img src="images/youtube11.png" height="55px" width="55px"> </a> 
-                           <a href="https://instagram.com/src_jitnagpur?igshid=ts9rpb95nl5k" target="_blank"> <img src="images/Instagram11.png" height="50px" width="50px"> </a>
-                           <a href="https://twitter.com/jit_src?s=20" target="_blank"> <img src="images/Twitter-Download-PNG.png" height="40px" width="40px"> </a> 
-                     <a href="https://www.facebook.com/SRCJITNAGPUR" target="_blank"> <img src="images/facebook-icon.png" height="30px" width="30px"> </a>  
-                  
-                        
-                        </p>
-                         </ul>
-						 </div>
-					</div>	 
-
-			  
-		   </div>
-		
-        </div>
-    </footer>
-    <!-- End Footer -->
-
-    <div class="footer_bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p class="crp">Website maintained by CSE Department of, JIT © 2020 Copyright AshishRana_JIT</p>
+                <div class="col-md-6">
+                    <div class="content no-mb">
+                        <div class="image">
+                            <img src="images/blog2.jpg" alt="">
+                        </div>
+                        <div class="blog-title">
+                            <h4><a href="http://bit.ly/2ZReKXY">Subscribe Our Youtube Channel</a></h4>
+                            <div class="date">
+                                2021 <i class="fas fa-circle"></i> <a href="http://bit.ly/2ZReKXY"><span>A.R Think - Youtube</span></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- end blog -->
 
-    <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+    <!-- contact -->
+    <div id="contact" class="contact segments">
+        <div class="container">
+            <div class="box-content">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="content-left">
+                            <div class="section-title section-title-left">
+                                <h3>Feel free to get in touch.</h3>
+                            </div>
+                            <h2>Contact Me</h2>
+                            <ul>
+                                 <li>
+                                    <a href="rashish423@gmail.com"><i class="fab fa-google"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ashish-rana-448713180/"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                 <li>
+                                    <a href="https://twitter.com/rashish423"><i class="fab fa-twitter"></i></a>
+                                </li>  
+                                <li>
+                                    <a href="https://www.facebook.com/profile.php?id=100008103075223"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/___ashish_rana___/"><i class="fab fa-instagram"></i></a>
+                                </li>                                                            
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="content-right">
+                            <form action="contact-form-handler.php" class="contact-form" id="contact-form" method="post">
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="first-name-field">
+                                            <input type="text" placeholder="First Name" class="form-control" name="form-name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div id="last-name-field">
+                                            <input type="text" placeholder="Last Name" class="form-control" name="form-name" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="email-field">
+                                            <input type="email" placeholder="Email Address" class="form-control" name="form-email" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="message-field">
+                                            <textarea cols="30" rows="5" class="form-control" id="form-message" name="form-message" placeholder="Message" required></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="button" type="submit" id="submit" name="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
 
-    <!-- ALL JS FILES -->
+    <!-- footer -->
+    <div class="footer segments">
+        <div class="container">
+            <div class="box-content">
+                <p class="crp">Website maintained by A.R Creations ©2021 Copyright Ashish Rana</p>
+            </div>
+        </div>
+    </div>
+    <!-- end footer -->
+
     <script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
+    <script src="js/fakeLoader.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.filterizr.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.pogo-slider.min.js"></script>
-    <script src="js/slider-index.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/custom.js"></script>
-	<script>
-	/* counter js */
+    <script src="js/contact-form.js"></script>
+    <script src="js/main.js"></script>
 
-	</script>
+
 </body>
+
 </html>
